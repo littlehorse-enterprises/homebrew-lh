@@ -1,4 +1,4 @@
-class Lhctl < Formula
+class LhctlAT07 < Formula
   desc "LittleHorse CLI for managing all things LittleHorse"
   homepage "https://littlehorse.dev/docs/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
