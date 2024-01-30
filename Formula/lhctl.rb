@@ -2,8 +2,8 @@ class Lhctl < Formula
   desc "LittleHorse CLI for managing all things LittleHorse"
   homepage "https://littlehorse.dev/docs/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
-      tag:      "0.7.0",
-      revision: "077c8425985746a6f45e80534d090e5ff6880efc"
+      tag:      "0.7.1",
+      revision: "4567df1b3151a128d56c5a186f599a7a4bc64ded"
   license "SSPL-1.0"
   head "https://github.com/littlehorse-enterprises/littlehorse.git", branch: "master"
 
