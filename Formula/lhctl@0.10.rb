@@ -1,11 +1,11 @@
-class LhctlAT08 < Formula
+class LhctlAT010 < Formula
   desc "LittleHorse CLI for managing all things LittleHorse"
   homepage "https://littlehorse.dev/docs/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
-      tag:      "0.8.1",
-      revision: "d5cdffe39e5edb9a55958aa1cf2254ae33dd921f"
+      tag:      "0.10.1",
+      revision: "f2be589d08b92349883cf7a8b696df9dabd5484c"
   license "SSPL-1.0"
-  head "https://github.com/littlehorse-enterprises/littlehorse.git", branch: "master"
+  head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "0.10.1"
 
   depends_on "go" => :build
 
