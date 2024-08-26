@@ -11,7 +11,7 @@ class LhctlAT07 < Formula
 
   def install
     ldflags = "-X main.version=#{version} -X main.buildSource=homebrew"
-    system "go", "build", "-C", "lhctl", *std_go_args(ldflags: ldflags)
+    system "go", "build", "-C", "lhctl", *std_go_args(ldflags:)
   end
 
   test do
