@@ -1,16 +1,16 @@
-class Lhctl < Formula
+class LhctlAT011 < Formula
   desc "LittleHorse CLI for managing all things LittleHorse"
   homepage "https://littlehorse.io/docs/server/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
-      tag:      "v0.12.1",
-      revision: "0a139369d72e045481f8436124f35f3da330be97"
+    tag:      "v0.11.2",
+    revision: "fd1ff8340336b411a0f208b9bd4d01fed0d5985f"
   license "SSPL-1.0"
-  head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "v0.12.1"
+  head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "0.11.2"
 
   depends_on "go" => :build
 
   def install
-    ldflags = "-X main.version=#{version} -X main.commit=homebrew"
+    ldflags = "-X main.version=#{version} -X main.buildSource=homebrew"
     system "go", "build", "-C", "lhctl", *std_go_args(ldflags:)
   end
 
