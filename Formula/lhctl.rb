@@ -3,7 +3,7 @@ class Lhctl < Formula
   homepage "https://littlehorse.dev/docs/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
       tag:      "v0.12.1",
-      revision: "fd1ff8340336b411a0f208b9bd4d01fed0d5985f"
+      revision: "0a139369d72e045481f8436124f35f3da330be97"
   license "SSPL-1.0"
   head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "v0.12.1"
 
