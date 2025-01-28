@@ -2,10 +2,10 @@ class Lhctl < Formula
   desc "LittleHorse CLI for managing all things LittleHorse"
   homepage "https://littlehorse.io/docs/server/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git",
-      tag:      "v0.12.1",
-      revision: "0a139369d72e045481f8436124f35f3da330be97"
+      tag:      "v0.12.4",
+      revision: "5b37303b872a28911b5b4e0e4b2865158bde1751"
   license "SSPL-1.0"
-  head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "v0.12.1"
+  head "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "v0.12.4"
 
   depends_on "go" => :build
 
