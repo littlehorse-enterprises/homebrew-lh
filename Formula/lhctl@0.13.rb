@@ -1,5 +1,5 @@
 class LhctlAT013 < Formula
-  desc "LittleHorse CLI for managing all things LittleHorse"
+  desc "LittleHorse CLI for managing all things LittleHorse."
   homepage "https://littlehorse.io/docs/server/developer-guide/lhctl"
   url "https://github.com/littlehorse-enterprises/littlehorse.git", tag: "v0.13.2"
   license "SSPL-1.0"
